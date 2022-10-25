@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		
+		<title>Tokyo Tuesday: Japan, right now. | 東京の火曜日</title>
+		
+		<style type="text/css">
+		/* <![CDATA[ */
+	
+		body {
+		margin: 0;
+		padding: 0;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #3C3C3C;
+		color: #1e1e1e;
+		  font-size: 12px; 
+		  background-color: #FFFBE9; 
+		 background-color: #FFFFFF;
+		  text-decoration: none; 
+		  font-weight: normal; 
+		  line-height: normal; 
+		background: url('/tokyo-tuesday/background.gif') top right no-repeat;
+		}
+
+		h1 {
+			margin: 0;
+			padding: 0;
+			font-size: 36px;
+			font-style: italic;
+			padding-left: 5px; 
+			margin-bottom: 10px;
+		}
+		
+		h2 { 
+			margin: 0; 
+			padding: 0; 
+			font-size: 48px;
+			padding-top: 10px;
+			line-height: 40px;
+			padding-bottom: 10px;
+			margin-left: 55px;
+			font-size: 40px;
+			margin-left: 5px;
+			font-style: italic;
+			padding-bottom: 15px;
+		}
+		
+		#content { border-right: solid #E6E6E6 1px; width: 980px; float: left; background-color: #ffffff;}
+		#english { border-bottom: solid #E6E6E6 1px; }
+		#japanese { border-left: solid #E6E6E6 1px; width: 286px; margin-left: 50px; height: 900px; float: right; padding: 20px; text-align: center; background: white;}
+		#japanese p { margin-left: 0; text-align: left;}
+		#japanese h2 { font-size: 18px; font-weight: bold; }
+		#jstat_container { height: 800px;}
+
+		.info {
+			width: 540px;
+			margin-left: 55px;
+			background-color: #f7a05b;
+			margin-bottom: 20px;
+		}
+		
+		.info.alt {
+			background-color: #69d2e7;
+		}
+		
+		ul, p { 
+			margin: 0; 
+			padding-bottom: 10px; 
+			padding-left: 10px;
+			margin-left: 70px;
+		 	background-color: #FFFFFF;
+			line-height: 1.4em;
+		}
+		
+		ul {
+			padding-left: 25px;h
+		}
+		
+		ul li {
+			margin-bottom: 3px;
+		}				
+		
+		.clear { clear: both; }
+		a          { color: #31abc6; }
+		a:link     { color: #31abc6; text-decoration: underline; }
+		a:visited  { color: #31abc6; text-decoration: underline; }
+		a:active   { color: #31abc6; text-decoration: underline; }
+		a:hover    { color: #31abc6; text-decoration: underline; }
+	
+		/* ]]> */
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<div id="jstat_container">
+				<script src="https://www.java.com/js/deployJava.js"></script>
+				<script>
+				    var attributes = {
+						code:'jstat',
+				        archive:'jstat.jar', 
+						width:980, 
+						height:800,
+						scriptable: true,
+						mayscript: true,
+						classid: 'java:jstat.class',
+						image: 'loading.gif',
+						boxmessage: 'Loading Processing software',
+						boxbgcolor: '#FFFFFF'
+					};
+				    var parameters = { permissions: 'sandbox' };
+					
+					if( results = window.location.href.match(/j[ap]/) ) {
+						parameters['lang'] = 'jp';
+					} else {
+						parameters['lang'] = 'en';
+					}
+					
+				    var version = '1.6';
+				    deployJava.runApplet(attributes, parameters, version);
+				</script>
+			</div>
+			<div id="english" class="clear">
+				<img src="/tokyo-tuesday/sample.png" width="0" height="0" style="display: none;" />
+				<div id="japanese">
+						<h2>統計データ!</h2>
+						<p>私は少し日本語を話します。デモ！この図は日本語で書かれているから日本語で書いています。</p>
+
+						<p>ー規則はしかない-クリック！クリック！クリック！おもしろい話はたくさんある、見つけれ。日本人はいつ働いてるか？いつ菓子作るか？だれは犬の散歩をしますか？</p>
+
+						<p>「一切」か範疇の名（タイトルの上）をクリックすると大きい分類へ移ります。図の男女をクリックすると男か女のみ見ます。英語で図はありますか？「日本語」をクリックする（上,右）！<a href="http://www.xoxosoma.com/tokyo-tuesday/jp">このリンク</a>も。</p>
+
+						<p>私はそまです、ニューヨークに住んでいます。私のemailアドレスは <a href="mailto:jonathan.soma@gmail.com">jonathan.soma@gmail.com</a> です。<a href="http://www.stat.go.jp/" target="_new">統計局</a>からダータをです。<a href="http://processing.jp/" target="_new">Processing</a>はプログラミング言語の図です。</p>
+
+						<p>助けてくれませんか？翻訳が欲しい!図のにほんごは少し恥ずかしいです。<a href="/tokyo-tuesday/list.html">これ</a>は句のリストです。ありがとうございます！</p>
+					</div>
+				
+				<h2>Japan, right now.</h2>				
+				<div class="info last">
+					<p>And five minutes ago, in three hours, or at 9:55 on Saturday night. What's Japan up to? Let's find out with some <strong><em>graphs</em></strong>. Let's
+						get <strong>specific,</strong> too. How many women with part-time jobs are walking their dog at 3am? <strong>Yeah, we've got that.</strong></p>
+					<p><strong>Let's jump right into this:</strong> Japan has the <em>absolute</em> best census in the history of my known world. Not only
+						does it include normal things like age, sex, and the height of each of your pets, but it <em>also</em> legitimizes the gossipy question
+						of <strong>What Are You Doing Right Now?</strong> Japan slapped a bunch of people with notebooks and a sacred Numbers
+						Mission: keep a log of what you do during the day, in <em>fifteen minute intervals</em>. And those people did!</p>
+					<p>P.S., a default-ly Japanese version of the chart is available at <a href="http://www.xoxosoma.com/tokyo-tuesday/jp">http://www.xoxosoma.com/tokyo-tuesday/jp</a></p>
+				</div>
+				<h2>Instructions</h2>
+				<div class="info alt last">
+					<p>This is a lot of data, and this is a complicated set of graphs. Let's go over what you can do with it:</p>
+					<ul>
+						<li>The main panel is a <strong>streamgraph</strong> of different activities. It's made up of stripes of different activities - Entertainment,
+							for example, has <strong>gardening</strong>, <strong>games</strong>, and <strong>walking the dog</strong>, among others. Hovering over a stripe gets
+							you a count of how many people are doing that activity at that time. If you'd like to get a <strong>wider view of the day's activities,</strong>
+							there are  links above the title - <strong><u>Everything</u> > <u>Category</u></strong> - if you click one of those you'll be popped up a level to see some more data. 
+							If you want a more narrow view? Double click on an activity on the main graph or the bar graph to the side - if there are sub-activities, you'll see them.</li>
+						<li>Let's say you've hovering over an activity you find interesting - now, <strong>click it once!</strong></li>
+						<li>After you click, the bottom right fills with graphs about the task you clicked. Now you get to see when it's popular, when no one is doing, and
+							who is doing it. The top graph breaks it down between men and women, and the bottom breaks it down between economic status - people in school,
+							people with jobs, etc. Now, <strong>click on 'Female'!</strong></li>
+						<li>Now the other two graphs on the page change - they're <strong>only reflecting women.</strong> If you click, say, 'mainly working' on the bottom 
+							graph, now the other two graphs are <strong>only working women.</strong> Want to compare to <strong>working men</strong>? Just click on the
+							'Male' part of the graph, and watch the graphs grow or shrink.</li>
+						<li>The top graph might be a little thin now, so what if you want to see it a little closer? There's a set of tools on the bottom left of the
+							main panel - click on <strong>Binding-relative sizing</strong> to turn it OFF. The graph isn't relative against the total population
+							any more - it moves to fill more space.</li>
+						<li>Maybe this value changes between the weekday and the weekend - on the bottom left of the panel, there's an option to change the day. 
+							<strong>Click it!</strong> You can cycle through days, and see how activities change. But maybe what you're looking at isn't very popular
+							on the weekend, and you'd like the see the graph in even <strong>greater</strong> detail?</li>
+						<li>There's a link called <strong>Weekly max</strong> - click it! Now you're seeing the greatest detail of every day, but the days are no longer 
+							relative to each other - they're trying to fill up as much space as possible.</li>
+						<li>You're tired of looking at the working men graph? Click <strong>Remove bindings</strong> and you'll see the complete data again.</li>
+						<li>Now, an easy one - just <strong>click the graph background.</strong> You'll see the time move around. You'll see some fun facts up top.</li>
+					</ul>
+				</div>
+				
+				<h2>統計の日 Party facts</h2>
+				<div class="info last">
+					<p><strong>OCTOBER EIGHTEENTH IS STATISTICS DAY.</strong> In Japan, at least. They even have <em><a href="http://www.stat.go.jp/info/guide/img/20pos.jpg" target="_new">posters</a></em>.
+						I don't know if I'll ever be able to breathe again.</p>	
+					<p>There have to be some good bits in there.</p>
+					<ul>
+						<li><strong>Childcare:</strong> Somewhat expectedly, men don't really do it. If you look at "Accompanying a child," though, I think there might 
+							be a law that makes Saturday afternoon Men Hang Out With Their Kids Or Pay A Big Fine day.</li>
+						<li><strong>Sports:</strong> Women like swimming, but men eschew the water for <em>productive sports</em>, which is my favorite Japanese invention.</li>
+						<li><strong>Early to bed and early to rise... and early to bed:</strong> People start waking up at 5 AM, but are taking naps by 7:30 AM.</li>
+						<li><strong>Squeaky clean:</strong> As many people are bathing at 1 in the morning as 7 in the morning.</li>
+						<li><strong>X-rayz:</strong> NO VISITING THE DOCTOR ON SUNDAY.</li>
+						<li><strong>TV:</strong> People without jobs just watch TV all day. The less lazy ones are gardening.</li>
+					</ul>
+					<p>I've been pretty much blinded by making this for the past couple weeks, so if you find anything 
+						great <a href="mailto:jonathan.soma@gmail.com">drop me a line</a>.</p>
+				</div>
+				<h2>Who'm I?</h2>
+				<div class="info alt last">
+					<p>I'm Soma, I live in Brooklyn, and I spend much more time baking than anyone in Japan. It's my sworn duty to remind you that I got a <strong>D+ in stats</strong> second year of college, so most graphing and all analysis should be taken with a toxically large grain of salt. My Japanese was limited to two years in high school, so you'll excuse me if my <strong>こわい's</strong> and <strong>かわいい's</strong> don't always line up. Thankfully, the <a href="http://www.stat.go.jp/english/" target="_new">Statistics Bureau of Japan</a> has a beautiful site that translates well more than it needs to.</p>
+					<p>My never-updated site is <a href="http://www.xoxosoma.com" target="_new">xoxosoma.com</a>, and mindless invective can be directed at <a href="mailto:jonathan.soma@gmail.com">jonathan.soma@gmail.com</a>. If you like fun and quality charts you might also like my 
+						<a href="http://www.xoxosoma.com/singles">interactive singles map</a>.</p>
+				</div>
+
+				<h2>Sources</h2>
+				<div class="info last">
+					<p>Data is from <a href="http://www.stat.go.jp/english/" target="_new">Statistics Bureau of Japan</a>, specifically the <strong>tantalizingly-named</strong>
+						<a href="http://www.stat.go.jp/english/data/shakai/2006/jitai-b/jitai-b.htm" target="_new">Survey on Time Use and Leisure Activities: Results
+							on Activities by Time of the Day (Questionnaire B)</a>. I think Questionnaire A was a little less in-depth. In case you can't tell from the 
+							graphs, the sample size for some pieces of this <strong>aren't so big,</strong> so please don't  drunk-dial me to win a bet about how many people 
+							are walking their dog at 1 AM. I'll add <strong>statistical error</strong> in and you'll lose your car.</p>
+					<p>Oh, and most of the translations are from the Statistics Bureau, too. I didn't edit too many, even when trying to make sentences.</p>
+					<p>Coded in <a href="http://www.processing.org" target="_new">Processing</a>, which is nice and fun and easy.</p>
+					<p>Lee Byron's paper on <a href="http://www.leebyron.com/else/streamgraph/" target="_new">stacked graphs</a>, although my maths were only strong enough to 
+						make it through the first half.</p>
+					<p>Oh hey, we made <a href="http://www.kottke.org/08/10/what-are-the-japanese-up-to-right-now">kottke</a>! AND <a href="http://news.bbc.co.uk/2/hi/uk_news/magazine/7883619.stm">THE BBC</a>?</p>
+				</div>
+				
+				<div class="clear"></div>
+			</div>
+		</div>	
+			<div class="clear"></div>
+			<br />
+			<br />
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-5541738-17', 'jonathansoma.com');
+    ga('send', 'pageview');
+
+  </script>
+	</body>
+</html>
